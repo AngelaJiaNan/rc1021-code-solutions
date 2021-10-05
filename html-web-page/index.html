@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML Web Page</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+
+    td:not(:first-child) {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<h1>Jelly of the Month Club</h1>
+<h2>Make all your friends jelly of your stock of jelly!</h2>
+<p>Here at JOTMC Inc.,we are constantly striving to supply our customers with the highest-quality and most unique jellies on a monthly basis.For the jelly lovers in your life (or yourself!),
+  this is the gift that keeps on giving all year round.We offer three tiers of monthly jelly joy, and each one offers their own perks. Here is a breakdown of each, as well as your monthly price:  </p>
+
+<table>
+  <thead>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Basic Plan</td>
+      <td>Deluxe Plan</td>
+      <td>Jelly Glant Plan</td>
+    </tr>
+  </thead>
+  <tr>
+    <td>Three new curated jellies per month</td>
+    <td><span>&#10003;</span></td>
+    <td><span>&#10003;</span></td>
+    <td><span>&#10003;</span></td>
+  </tr>
+  <tr>
+    <td>Monthly jellies come with commemorative mason jars</td>
+    <td>&nbsp;</td>
+    <td><span>&#10003;</span></td>
+    <td><span>&#10003;</span></td>
+  </tr>
+  <tr>
+    <td>Free bonus jar of preserves bi-monthly</td>
+    <td>&nbsp;</td>
+    <td><span>&#10003;</span></td>
+    <td><span>&#10003;</span></td>
+  </tr>
+  <tr>
+    <td>Free yearly tickets to jelly Con</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><span>&#10003;</span></td>
+  </tr>
+  <tr>
+    <td>Monthly Pricing</td>
+    <td>$30</td>
+    <td>$50</td>
+    <td>$60</td>
+  </tr>
+</table>
+<form>
+  <div>
+    <label for="Your name">Like what you see? Become a part of the JOTMC family today!</label>
+    <div>
+      <input name="name" type="Your name" id="Your name">
+      <select name="plan">
+        <option value="Select your Plan">Select your Plan</option>
+        <option value="monthly">Monthly</option>
+        <option value="bi-monthly">Bi-monthly</option>
+      </select>
+      <input type="submit">
+
+    </div>
+  </div>
+</form>
+</body>
+</html>
