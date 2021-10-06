@@ -1,0 +1,13 @@
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+tr:nth-child(1) {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
