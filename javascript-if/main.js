@@ -9,9 +9,9 @@
  */
 function isUnderFive(number) {
   if (number < 5) {
-    return false;
-  } else {
     return true;
+  } else {
+    return false;
   }
 }
 
@@ -24,7 +24,7 @@ function isEven(number) {
 }
 
 function startsWithJ(string) {
-  if (string[0] === string.toUpperCase()) {
+  if (string[0] === string[0].toUpperCase()) {
     return true;
   } else {
     return false;
@@ -48,7 +48,7 @@ function isOldEnoughToDrive(person) {
 }
 
 function isOldEnoughToDrinkAndDrive(person) {
-  if ((person.age >= 16) && (person.age >= 21)) {
+  if (person.age >= 16 && person.age >= 21) {
     return false;
   }
 }
@@ -66,7 +66,7 @@ function categorizeAcidity(pH) {
 }
 
 function introduceWarnerBro(name) {
-  if ((name === 'yakko') && (name === 'wakko')) {
+  if (name === 'yakko' || name === 'wakko') {
     return "We're the warner brothers!";
   } else if (name === 'dot') {
     return "I'm cute~";
