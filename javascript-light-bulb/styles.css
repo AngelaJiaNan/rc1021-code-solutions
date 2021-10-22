@@ -1,0 +1,32 @@
+main {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: peachpuff;
+}
+
+.off {
+  background-color: black;
+}
+
+.yellow-button {
+  height: 150px;
+  line-height: 80px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: yellow;
+  border: 2px solid yellow;
+  position: relative;
+}
+
+.yellow-button:focus {
+  outline: none;
+}
+
+.yellow-button.off {
+  background-color: grey;
+  border: 2px solid black;
+  box-shadow: 10px 5px 5px black;
+}
