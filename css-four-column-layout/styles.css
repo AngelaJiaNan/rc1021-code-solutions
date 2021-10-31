@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-fourth {
+  width: 25%;
+}
+
+.rowText {
+  display: flex;
+  text-align: center;
+}
+
+.screen {
+  width: 18em;
+}
+
+.icons {
+  width: 80px;
+}
+
+h1,
+h2,
+p {
+  font-family: 'Barlow', sans-serif;
+}
