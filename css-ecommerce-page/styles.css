@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-fifth {
+  width: 20%;
+  padding: 1rem;
+  margin: -18px;
+}
+
+.shoppingItems {
+  width: 8rem;
+  text-align: left;
+}
+
+del {
+  text-decoration: line-through;
+  color: lightgrey;
+}
+
+ins {
+  text-decoration: none;
+  background-color: peachpuff;
+}
+
+span.size {
+  color: lightgrey;
+}
+
+p {
+  text-align: left;
+}
