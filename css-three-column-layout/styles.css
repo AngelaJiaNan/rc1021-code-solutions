@@ -1,0 +1,49 @@
+* {
+  background-color: dodgerblue;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  margin: 10%;
+  max-width: 1000px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.justifycenter {
+  justify-content: center;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.icons {
+  border-width: 10px;
+  background-color: transparent;
+  width: 40%;
+  margin: 25px;
+}
+
+.icon-container {
+  border-radius: 55%;
+  background-color: white;
+  width: 32%;
+  height: 40%;
+  margin-left: 20px;
+}
+
+.column-third {
+  text-align: center;
+  flex-basis: 32%;
+}
