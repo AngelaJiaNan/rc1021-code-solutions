@@ -2,11 +2,30 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.container {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
 .row {
   display: flex;
-  text-align: center;
-  padding: 1rem;
   justify-content: center;
+  padding: 0 15%;
+}
+
+.shoppingItems {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
 }
 
 .column-full {
@@ -15,13 +34,6 @@
 
 .column-fifth {
   width: 20%;
-  padding: 1rem;
-  margin: -18px;
-}
-
-.shoppingItems {
-  width: 8rem;
-  text-align: left;
 }
 
 del {
