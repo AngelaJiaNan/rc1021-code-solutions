@@ -9,7 +9,7 @@
 function getNumbersToTen() {
   var numbers = [];
   var currentNumber = 1;
-  for (var i = 0; i < 10; i++) {
+  while (currentNumber <= 10) {
     numbers.push(currentNumber);
     currentNumber = currentNumber + 1;
   }
@@ -21,7 +21,7 @@ console.log('getNumbersToTen()', res);
 function getEvenNumbersToTwenty() {
   var evenNumbers = [];
   var currentNumber = 2;
-  for (var i = 0; i < 20; i++) {
+  while (currentNumber <= 20) {
     evenNumbers.push(currentNumber);
     currentNumber = currentNumber + 2;
   }
@@ -33,7 +33,7 @@ console.log('getEvenNumbersToTwenty()', result);
 function repeatWord(word, times) {
   var count = 1;
   var repeated = '';
-  for (var i = count; i < times; i++) {
+  while (count <= times) {
     repeated += word;
     count = count + 1;
   }
