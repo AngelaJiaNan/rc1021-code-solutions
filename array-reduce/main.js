@@ -29,6 +29,7 @@ console.log('product:', product);
 
 const balance = account.reduce((previousValue, currentValue) => {
   if (currentValue.type === 'deposit') {
+    console.log(currentValue.type);
     return previousValue + currentValue.amount;
   } else {
     return previousValue - currentValue.amount;
