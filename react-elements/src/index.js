@@ -9,4 +9,4 @@ const reactCreateelement = React.createElement(
 
 const root = document.querySelector('#root');
 
-ReactDOM.render((reactCreateelement), root);
+ReactDOM.render(reactCreateelement, root);
