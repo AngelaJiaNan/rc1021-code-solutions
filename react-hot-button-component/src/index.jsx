@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 class Hotbutton extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { clicks: 0 };
+    this.state = { clicks: 0, className: '' };
     this.handleClick = this.handleClick.bind(this);
   }
 
@@ -34,10 +34,7 @@ class Hotbutton extends React.Component {
   }
 }
 
-const Element =
-<Hotbutton/>;
-
 ReactDOM.render(
-  Element,
+  <Hotbutton />,
   document.querySelector('#root')
 );
