@@ -1,0 +1,41 @@
+.toggleContainer {
+  border: solid;
+  border-radius: 12px;
+  width: 50px;
+  height: 25px;
+  position: relative;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  border: solid;
+  position: absolute;
+}
+
+.toggleContainer.on {
+  background-color: green;
+}
+
+.toggleContainer.off {
+  background-color: lightgrey;
+}
+
+.circleOn {
+  transform: translateX(20px);
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  border: solid;
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
