@@ -1,0 +1,14 @@
+.stopWatchface {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  margin-left: 42px;
+  padding: 23px;
+}
