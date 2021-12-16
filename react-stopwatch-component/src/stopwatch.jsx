@@ -13,12 +13,12 @@ class Stopwatch extends React.Component {
   }
 
   handleClick() {
-    this.setState({ isClicked: !this.state.isClicked });
     if (this.state.isClicked === false) {
       this.intervalID = setInterval(() => this.setState({ seconds: this.state.seconds + 1 }), 1000);
     } else {
       clearInterval(this.intervalID);
     }
+    this.setState({ isClicked: !this.state.isClicked });
   }
 
   resetTimer() {
