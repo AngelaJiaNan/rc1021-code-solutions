@@ -47,7 +47,7 @@ class ValidatedInput extends React.Component {
             type="password"
             id="pwd"
             onChange={this.handleChange}/>
-            <i className={this.state.status ? 'fas fa-check' : 'fas fa-times'}></i>
+            <i className={this.state.status ? 'fas fa-check text-green' : 'fas fa-times text-red'}></i>
           </div>
           <p>{this.state.errormsg}</p>
         </div>
