@@ -1,0 +1,18 @@
+User can sign up
+- user click on register, then the auth-form will run which prompt the user to input a username and password.
+- then the server side the post method is called then the information will be rendered on auth-from.jsx.
+- the post method then check to see if username or password is missing, if so then 401 error.
+-when password is filled out then the password is hashed and it is save to the database/data.sql.
+
+User can sign in.
+- when user sucessfully logged in with vaild username & password, the user is given token and can access their account.
+- when post method is called and there is no username & password client will get a 401 status with a msg of "invalid login"
+-if the username & password doesn't match then a 500 status and error message of "unexpected error occurred"
+
+User can stay signed in (even if they refresh the page).
+-the handleSignIn method is called and access token to local storage with the window.localstorage.setItem
+- then the componentDidMount method is called and gets it and checks for it
+
+User can sign out.
+-the handleSignOut method is called and the window.localstorage.removeItem is called
+-the user state is set to null
